@@ -6,31 +6,44 @@
     <title>Document</title>
     <link rel="stylesheet" href="css/styles.css">
 </head>
-<body class="bg-blue-500">
+<body class="">
+    <div class="bg-blue-600 bg-cover w-full">
     <header>
-        <div class="text-white grid grid-cols-2">
-            <div class="ml-8 mt-4"><img class="h-14" src="images/game logo.jpeg" alt="a game logo"></div>
-            <nav>
-                <ul class="flex space-x-6 mt-4">
-                    <li><a href="#" class="border border-gray-500 rounded-xl px-2 py-4">Home</a></li>
-                    <li><a href="#" class="hover:border hover:border-gray-500 rounded-xl">Our Shop</a></li>
-                    <li><a href="#" class="hover:border hover:border-gray-500 rounded-xl">Product Details</a></li>
-                    <li><a href="#" class="hover:border hover:border-gray-500 rounded-xl">Contact Us</a></li>
-                    <li><a href="#" class="border border-red-600 rounded-xl">Sign In</a></li>
-                </ul>
-            </nav>
-        </div>
-        <section>
-            <div class="text-center mx-auto text-white">
-                <h3 class="font-semibold">
-                    WELCOME TO LUGX
-                </h3>
-                <h1 class="font-bold">BEST GAMING SITE EVER!</h1>
-                <p>LUGX Gaming is free Bootstrap 5 HTML CSS website template for your gaming 
-                    websites. You can download and use this layout for commercial purposes. Please tell your friends 
-                    about TemplateMo.</p>
+            <div class="text-white grid grid-cols-2 rounded-3xl">
+                <div class="ml-8 mt-4"><img class="h-14" src="images/logo.png" alt="a game logo"></div>
+                <nav>
+                    <ul class="flex space-x-6 mt-4">
+                        <li><a href="#" class="bg-gray-500 rounded-2xl px-2 py-4">Home</a></li>
+                        <li><a href="#" class=" hover:bg-gray-500 hover:rounded-xl">Our Shop</a></li>
+                        <li><a href="#" class=" hover:bg-gray-500 rounded-xl">Product Details</a></li>
+                        <li><a href="#" class=" hover:bg-gray-500 rounded-xl">Contact Us</a></li>
+                        <li><a href="#" class="bg-red-600 rounded-2xl px-2 py-4">Sign In</a></li>
+                    </ul>
+                </nav>
             </div>
-        </section>
-    </header>
+        </header>
+            <section>
+                <div class="grid grid-cols-2 gap-20 text-center text-white mt-12">
+                    <div class="col-start-1">
+                        <h3 class="text-xl tracking-wide  font-semibold">
+                            WELCOME TO LUGX
+                        </h3>
+                        <h1 class="text-5xl font-extrabold mt-4">BEST GAMING SITE EVER!</h1>
+                        <img class="ml-4" src="images/redline.png" alt="redLine">
+                        <p class="mt-6 text-lg leading-relaxed">LUGX Gaming is free Bootstrap 5 HTML CSS website template for your gaming 
+                            websites. You can download and use this layout for commercial purposes. Please tell your friends 
+                            about TemplateMo.</p>
+                    </div>
+                    <div class="flex items-center justify-center mt-6 space-x-2">
+                        <input 
+                        type="text"
+                        placeholder="Type Something"
+                        class="w-2/3 p-2 rounded-full border border-gray-300 focus:outline-none focus:ring-2  focus:ring-blue-500">
+                        <button class="bg-red-500 text-white px-4 py-2 rounded-full hover:bg-blue-600">SEARCH NOW</button>
+                    </div>
+                        <div><img class="rounded-2xl mr-8" src="images/warrior.jpeg" alt="a gaming warrior"></div>
+                </div>
+            </section>
+    </div>
 </body>
 </html>
