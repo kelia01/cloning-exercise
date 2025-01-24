@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body class="">
-    <div class="bg-[url('../images/backg-img.jpeg')] bg-cover w-full rounded-b-[150px]">
+    <div class="bg-[url('../images/backg-img.jpeg')] bg-cover w-full rounded-b-[150px] ml-2 relative">
     <header>
             <div class="text-white grid grid-cols-2 rounded-3xl">
                 <div class="ml-15 m-11"><img class="h-14" src="images/logo.png" alt="a game logo"></div>
@@ -33,12 +33,12 @@
                         <p class="mt-12 mb-8 text-lg leading-relaxed">LUGX Gaming is free Bootstrap 5 HTML CSS website template for your gaming 
                             websites. You can download and use this layout for commercial purposes. Please tell your friends 
                             about TemplateMo.</p>
-                            <div class="flex items-center justify-center mt-6 space-x-2">
+                            <div class="flex justify-center mt-6 space-x-2 overflow-hidden">
                                 <input 
                                 type="text"
                                 placeholder="Type Something"
-                                class="w-2/3 p-2 rounded-full border border-gray-300 focus:outline-none focus:ring-2  focus:ring-blue-500">
-                                <button class="bg-red-400 text-white px-4 py-2 rounded-full hover:bg-blue-600">SEARCH NOW</button>
+                                class="w-2/3 p-2 rounded-full border border-gray-300 outline-none">
+                                <button class="bg-red-400 text-white px-4 py-2 rounded-full hover:bg-blue-600 transition">SEARCH NOW</button>
                             </div>
                     </div>
                         <div class="relative">
@@ -48,7 +48,7 @@
                 </div>
             </section>
             <div>
-                <div class="flex gap-3 mt-32">
+                <div class="flex gap-3 justify-center">
                     <div class="ml-4 flex justify-center bg-white rounded-3xl h-44 w-72 text-center relative">
                         <img class="text-center p-4 m-10 rounded-full bg-blue-600 hover:bg-red-400" src="images/templatemo.com-1737110477260/featured-01.png" alt="storage">
                         <h5 class="mt-4 font-bold absolute bottom-4">FREE STORAGE</h5>
@@ -67,6 +67,97 @@
                     </div>
                 </div>
             </div>
+    </div>
+    <div class="mt-40 ml-8 relative">
+        <h6 class="text-red-400 text-lg font-bold">TRENDING</h6>
+        <h3 class="mt-4 font-extrabold text-4xl">Trending Games</h3>
+        <div class="bg-red-400 rounded-2xl px-4 py-2 text-white font-semibold absolute right-16 top-10 hover:bg-blue-500">VIEW ALL</div>
+        <div class="flex justify-evenly">
+            <div class="rounded-3xl bg-gray-200 mt-20 h-72 w-64 relative">
+                <img src="images/templatemo.com-1737110477260/trending-01.jpg" 
+                alt="warrior" class="rounded-lg">
+                <p class="mt-4 font-extralight text-sm ml-2">Action</p>
+                <h6 class="mt-2 mb-4 font-semibold text-lg ml-2 hover:text-blue-500">Assasin Creed</h6>
+                <div class="absolute top-2 right-4 bg-blue-500 rounded-lg text-white w-14 h-12">
+                    <p class="px-1 text-center font-light text-sm">$28</p>
+                    <h4 class="px-1 text-center font-semibold">$20</h4>
+                </div>
+            </div>
+            <div class="rounded-3xl bg-gray-200 mt-20 h-72 w-64 relative">
+                <img src="images/templatemo.com-1737110477260/trending-02.jpg" 
+                alt="warrior" class="rounded-lg">
+                <p class="mt-4 font-extralight text-sm ml-2">Action</p>
+                <h6 class="mt-2 mb-4 font-semibold text-lg ml-2 hover:text-blue-500">Assasin Creed</h6>
+                <div class="absolute top-2 right-4 bg-blue-500 rounded-lg text-white w-14 h-8">
+                    <h4 class="px-1 text-center font-semibold">$32</h4>
+                </div>
+            </div>
+            <div class="rounded-3xl bg-gray-200 mt-20 h-72 w-64 relative">
+                <img src="images/templatemo.com-1737110477260/trending-03.jpg" 
+                alt="warrior" class="rounded-lg">
+                <p class="mt-4 font-extralight text-sm ml-2">Action</p>
+                <h6 class="mt-2 mb-4 font-semibold text-lg ml-2 hover:text-blue-500">Assasin Creed</h6>
+                <div class="absolute top-2 right-4 bg-blue-500 w-14 h-12 rounded-lg text-white">
+                    <p class="text-center font-light text-sm">$28</p>
+                    <h4 class="text-center font-semibold">$20</h4>
+                </div>
+            </div>
+            
+            <div class="rounded-3xl bg-gray-200 mt-20 h-72 w-64 relative">
+                <img src="images/templatemo.com-1737110477260/trending-04.jpg" 
+                alt="warrior" class="rounded-lg">
+                <p class="mt-4 font-extralight text-sm ml-2">Action</p>
+                <h6 class="mt-2 mb-4 font-semibold text-lg ml-2 hover:text-blue-500">Assasin Creed</h6>
+                <div class="absolute top-2 right-4 bg-blue-500 rounded-lg text-white w-14 h-8">
+                    <h4 class="px-1 text-center font-semibold">$32</h4>
+                </div>
+            </div>
+            </div>
+        </div>
+
+        <div class="mt-40 ml-8 relative bg-gray-100 rounded-full p-8">
+            <h6 class="text-red-400 text-lg font-bold absolute left-4 top-2">TOP GAMES</h6>
+            <h3 class="mt-4 font-extrabold text-4xl absolute left-4 top-6">Mostly Played</h3>
+            <div class="bg-red-400 rounded-2xl px-4 py-2 text-white font-semibold absolute right-16 top-10 hover:bg-blue-500">VIEW ALL</div>
+            <div class="flex justify-evenly">
+                <div class="rounded-3xl bg-white mt-20 h-72">
+                    <img src="images/templatemo.com-1737110477260/top-game-01.jpg" 
+                    alt="warrior" class="rounded-lg">
+                    <p class="mt-4 font-extralight text-sm ml-2">Adventure</p>
+                    <h6 class="mt-2 mb-4 font-semibold text-lg ml-2 hover:text-blue-500">Assasin Creed</h6>
+                </div>
+                <div class="rounded-3xl bg-white mt-20 h-72">
+                    <img src="images/templatemo.com-1737110477260/top-game-02.jpg" 
+                    alt="warrior" class="rounded-lg">
+                    <p class="mt-4 font-extralight text-sm ml-2">Adventure</p>
+                    <h6 class="mt-2 mb-4 font-semibold text-lg ml-2 hover:text-blue-500">Assasin Creed</h6>
+                </div>
+                <div class="rounded-3xl bg-white mt-20 h-72">
+                    <img src="images/templatemo.com-1737110477260/top-game-03.jpg" 
+                    alt="warrior" class="rounded-lg">
+                    <p class="mt-4 font-extralight text-sm ml-2">Adventure</p>
+                    <h6 class="mt-2 mb-4 font-semibold text-lg ml-2 hover:text-blue-500">Assasin Creed</h6>
+                </div>
+                <div class="rounded-3xl bg-white mt-20 h-72">
+                    <img src="images/templatemo.com-1737110477260/top-game-04.jpg" 
+                    alt="warrior" class="rounded-lg">
+                    <p class="mt-4 font-extralight text-sm ml-2">Adventure</p>
+                    <h6 class="mt-2 mb-4 font-semibold text-lg ml-2 hover:text-blue-500">Assasin Creed</h6>
+                </div>
+                <div class="rounded-3xl bg-white mt-20 h-72">
+                    <img src="images/templatemo.com-1737110477260/top-game-05.jpg" 
+                    alt="warrior" class="rounded-lg">
+                    <p class="mt-4 font-extralight text-sm ml-2">Adventure</p>
+                    <h6 class="mt-2 mb-4 font-semibold text-lg ml-2 hover:text-blue-500">Assasin Creed</h6>
+                </div>
+                <div class="rounded-3xl bg-white mt-20 h-72">
+                    <img src="images/templatemo.com-1737110477260/top-game-06.jpg" 
+                    alt="warrior" class="rounded-lg">
+                    <p class="mt-4 font-extralight text-sm ml-2">Adventure</p>
+                    <h6 class="mt-2 mb-4 font-semibold text-lg ml-2 hover:text-blue-500">Assasin Creed</h6>
+                </div>
+                </div>
+                </div>
     </div>
 </body>
 </html>
